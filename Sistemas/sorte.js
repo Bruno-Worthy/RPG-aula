@@ -1,6 +1,13 @@
 
-function sortear() {
-    return Math.random();
+const TESTE = false;
+
+function sorte(chance) {
+    let sorte =Math.random();
+
+    if (TESTE) {
+        sorte = 0.2;
+    }
+    return sorte < chance
 }
 
-module.exports = sortear;
+module.exports = sorte;
