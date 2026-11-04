@@ -1,14 +1,16 @@
-## O que mudou?
-Descreva as alterações realizadas.
+## O que muda
+(uma ou duas frases: o que este PR faz no jogo)
 
 ## Cartão do Trello
-Cole o link do cartão correspondente.
+(link do cartão)
 
-## Como testar?
-Explique os comandos e os passos para testar.
+## Como testar
+1. git fetch e git switch nome-da-branch
+2. npm test (termina com "Tudo certo.")
+3. Jogando, confira também: (digite ... e veja ...)
 
-## Checklist
-- [ ] Testei o jogo do início ao fim.
-- [ ] Alterei somente o que a tarefa pediu.
-- [ ] Verifiquei se existem erros.
-- [ ] Fiz commits com mensagens claras.
+## Checklist do autor
+- [ ] npm test passou
+- [ ] Pus no teste.js uma frase nova do que este PR faz (se mudou o jogo)
+- [ ] Mexi só no que o título diz
+- [ ] Commits com tipo(escopo): mensagem
